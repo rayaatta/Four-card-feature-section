@@ -1,45 +1,10 @@
-/* 
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
-
-### Neutral
-
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Fonts
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600
-*/
 :root {
     --red:hsl(0, 78%, 62%);
     --cyan:hsl(180, 62%, 55%);
     --orange:hsl(34, 97%, 64%);
     --blue:hsl(212, 86%, 64%);
     --grayish-blue:hsl(229, 6%, 66%);
+    --very-dark-blue:hsl(234, 12%, 34%);
     --very-light-gray:hsl(225, 0%, 90%);
 }
 *,*::after, *::before {
@@ -65,13 +30,14 @@ h1 {
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 1rem;
-    
+    color:var(--very-dark-blue);
 }
 h1 > span {
     display: block;
 }
 h1 > .hd-span {
     font-weight: 200;
+    
 }
 p {
     color:var(--grayish-blue);
@@ -95,6 +61,7 @@ h2 {
     margin-block-end: 1.5rem;
     font-weight: 600;
     font-size: 1.5rem;
+    color:var(--very-dark-blue);
 }
 .image-container {
     width:100%;
